@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Check if the host is on the network
-
 if [ $# -eq 1 ]; then
 	ping -c 5 $1
 fi
